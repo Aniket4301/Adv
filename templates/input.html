@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<center>
+    <font face = "Verdana" size = "5">
+    <center style="color:white"><div style="background-color:#BFF068 ">
+        <form action="http://localhost:5000" method="post">
+            <h2>Advertising</h2>
+            <h3>newspaper</h3><input id="first" name="newspaper" required="required">
+            <h3>radio</h3><br><input id="second" name="radio" required="required">
+            <h3>TV</h3><br><input id="third" name="TV" required="required">
+
+
+            <br><br><button id="sub" type="submit">Calculate the Sale</button>
+            <br>
+        </form>
+
+        <br><br><h3>{{ prediction_text }}</h3>
+        </div>
+    </center>
+    </font>
+</center>
+
+</body>
+
+</html>
